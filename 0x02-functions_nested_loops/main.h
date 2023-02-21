@@ -6,3 +6,4 @@ void print_alphabet_x10(void);
 /* declare print_alphabet_x10 function to avoid the  [-Werror=implicit-function-declaration]*/
 int _islower(int);
 /* declare _islower function to avoid the  [-Werror=implicit-function-declaration]*/
+int _isalpha(int);
