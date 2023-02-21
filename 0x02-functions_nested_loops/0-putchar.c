@@ -1,26 +1,36 @@
 #include "main.h"
+
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * printString - writes the character array str to stdout
+ * @str: The string to print
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: no return
  */
 
+void printString(char *str)
+{
+	int i;
 
-
-void printString(char* str){
-	int i = 0;
-	while(str[i] != '\0'){
+	i = 0;
+	while (str[i] != '\0')
+	{
 		_putchar(str[i]);
 		i++;
 	}
 }
 
-int main(void){
-	char* string = "_putchar";
+/**
+ * main - the entry point of the programme
+ *
+ * Return: 0 if the programme compilation goes well
+ */
+
+int main(void)
+{
+	char *string = "_putchar";
 
 	printString(string);
 	_putchar('\n');
-	return 0;
+
+	return (0);
 }
