@@ -1,4 +1,4 @@
-
+#include "main.h"
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -8,9 +8,6 @@
  */
 
 
-/* declae _putchar function to avoid the  [-Werror=implicit-function-declaration]*/
-
-int _putchar(char c);
 
 void printString(char* str){
 	int i = 0;
