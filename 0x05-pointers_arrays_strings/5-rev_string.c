@@ -16,7 +16,7 @@ void rev_string(char *s)
 
 	while (s[len] != '\0')
 		len++;
-	/* swap chars from beginning and end until we reach the middle of the string */
+	/*swap chars from beginning and end until we reach the middle of the string*/
 	for (i = 0, j = len - 1; i < j; i++, j--)
 	{
 		tmp = s[i];
